@@ -68,4 +68,5 @@ CREATE TABLE specialist_list_specialist (
     id NUMBER PRIMARY KEY,
     list_id NUMBER REFERENCES specialist_list (list_id),
     specialist_id NUMBER REFERENCES security_specialist (specialist_id)
+
 );
