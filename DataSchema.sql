@@ -51,7 +51,7 @@ CREATE TABLE list_request (
     REFERENCES user_account (user_id),
     criteria VARCHAR(255),
     created_at TIMESTAMP NOT NULL,
-    status VARCHAR(50) DEFAULT 'pending'
+    request_status VARCHAR(50) DEFAULT 'pending'
 );
 
 CREATE TABLE specialist_list (
@@ -70,3 +70,4 @@ CREATE TABLE specialist_list_specialist (
     specialist_id NUMBER REFERENCES security_specialist (specialist_id)
 
 );
+
