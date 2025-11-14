@@ -9,10 +9,10 @@ jobs:
   data_processing_versions:
     runs-on: ubuntu-latest
     steps:
-        - name: Print Python and Node.js versions
+        - name: Print Java and Node.js versions
           run: |
             echo "=== Data Processing Software Versions ==="
-            python3 --version
+            java --version
             node --version
             npm --version
 
@@ -24,4 +24,3 @@ jobs:
           run: |
             echo "=== Database Software Versions ==="
             mysql --version || echo "MySQL not installed"
-            psql --version || echo "PostgreSQL not installed"
