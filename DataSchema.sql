@@ -70,4 +70,3 @@ CREATE TABLE specialist_list_specialist (
     specialist_id NUMBER REFERENCES security_specialist (specialist_id)
 
 );
-
