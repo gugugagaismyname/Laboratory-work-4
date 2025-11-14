@@ -15,6 +15,7 @@ public final class ProgramCode {
      * @param args аргументи командного рядка
      */
     public static void main(final String[] args) {
-        System.out.println("Hotel Booking Platform");
+        System.out.println("Sleep & Safety Support Platform");
     }
 }
+
